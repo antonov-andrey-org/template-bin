@@ -10,12 +10,10 @@ mysql --host=$SqlAlchemyHost \
       --ssl-ca=mysql.crt \
       --ssl-mode=VERIFY_IDENTITY \
       --user=$SqlAlchemyUser \
-      --password \
-      $SqlAlchemyDatabase
+      --password "$@"
 else
 mysql --host=$SqlAlchemyHost \
       --port=$SqlAlchemyPort \
       --user=$SqlAlchemyUser \
-      --password \
-      $SqlAlchemyDatabase
+      --password "$@"
 fi
