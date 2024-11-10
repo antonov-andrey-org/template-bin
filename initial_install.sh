@@ -5,7 +5,7 @@ sudo apt full-upgrade -y
 
 # https://eternalterminal.dev/download/
 sudo apt install -y software-properties-common
-sudo add-apt-repository ppa:jgmath2000/et
+sudo add-apt-repository -y ppa:jgmath2000/et
 sudo apt update
 sudo apt install -y et tmux wget
 
