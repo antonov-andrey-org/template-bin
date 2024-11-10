@@ -1,6 +1,10 @@
 #! /bin/bash -e
 
-sudo apt install python3-virtualenv
+
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt install default-libmysqlclient-dev python3-virtualenv
+
 if [ -d "venv" ];
 then
   sudo rm -rf venv
