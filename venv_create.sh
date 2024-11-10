@@ -1,6 +1,5 @@
 #! /bin/bash -e
 
-
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt install default-libmysqlclient-dev python3-virtualenv

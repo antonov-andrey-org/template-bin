@@ -1,6 +1,5 @@
 #!/bin/bash -e
 
-
 set -o allexport
 source ./.env
 set +o allexport
