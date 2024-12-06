@@ -15,7 +15,7 @@ source venv/bin/activate
 pip install -U pip setuptools wheel
 if [ -f "requirements.txt" ];
 then
-  pip install -r requirements.txt
+  pip install -U -r requirements.txt
 fi
 
 mkdir -p log
